@@ -66,3 +66,30 @@ body {
   line-height: 25px;
   color: #9fabb2;
 }
+.content_box h2 {
+  padding: 20px;
+  font-size: 2.6rem;
+  color: #4c545d;
+}
+
+.box_properties {
+  width: 100%;
+}
+.box_properties figure {
+  width: 90%;
+  margin: 70px auto;
+}
+.box_properties figure img {
+  width: 100%;
+}
+.box_properties-description h3 {
+  margin-bottom: 15px;
+  font-size: 2.4rem;
+  color: #4c545d;
+}
+.box_properties-description p {
+  margin-bottom: 60px;
+}
+.box_properties-description p:last-child {
+  margin-bottom: 0;
+}
