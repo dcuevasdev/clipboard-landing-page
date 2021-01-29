@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 62.5%;
+}
+
+/*COLORS*/
+/*COLORS TITLES*/
+body {
+  background-image: url(../images/bg-header-mobile.png);
+  background-position: top 0;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 100%;
+}
+.content_box {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content_box--buttons {
+  width: 310px;
+  margin: 50px auto 0;
+}
+.content_box--buttons a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  line-height: 50px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+}
+.content_box--buttons a:first-child {
+  margin-bottom: 20px;
+}
+.content_box--buttons .cyan {
+  background-color: #26baa4;
+  box-shadow: 0 -3px 1px #219f8a inset;
+}
+.content_box--buttons .blue {
+  background-color: #6174ff;
+  box-shadow: 0 -3px 1px #4f62da inset;
+}
+.content_box figure {
+  margin: 120px 0 50px;
+}
+.content_box h1 {
+  padding: 20px;
+  font-size: 2.8rem;
+  color: #4c545d;
+}
+.content_box p {
+  padding: 0 20px;
+  font-size: 1.55rem;
+  color: #9fabb2;
+}
