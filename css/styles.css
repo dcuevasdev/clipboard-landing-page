@@ -19,6 +19,7 @@ body {
 
 .content {
   width: 100%;
+  margin-bottom: 170px;
 }
 .content_box {
   width: 90%;
@@ -35,9 +36,10 @@ body {
   height: 50px;
   border-radius: 50px;
   line-height: 50px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .content_box--buttons a:first-child {
   margin-bottom: 20px;
@@ -61,5 +63,6 @@ body {
 .content_box p {
   padding: 0 20px;
   font-size: 1.55rem;
+  line-height: 25px;
   color: #9fabb2;
 }

@@ -9,6 +9,7 @@ body {
 
 .content {
   width: 100%;
+  margin-bottom: 170px;
   &_box {
     width: 90%;
     margin: 0 auto;
@@ -22,9 +23,10 @@ body {
         height: 50px;
         border-radius: 50px;
         line-height: 50px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-decoration: none;
         color: white;
+        cursor: pointer;
       }
       a:first-child {
         margin-bottom: 20px;
@@ -50,6 +52,7 @@ body {
   &_box p {
     padding: 0 20px;
     font-size: 1.55rem;
+    line-height: 25px;
     color: $words;
   }
 }
