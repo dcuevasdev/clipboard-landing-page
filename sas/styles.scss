@@ -78,10 +78,18 @@ body {
       color: $titles;
     }
     p {
-      margin-bottom: 60px;
+      margin-bottom: 50px;
     }
     p:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+.content_box .devices-img {
+  width: 90%;
+  margin: 70px auto 0;
+  img {
+    width: 100%;
   }
 }
