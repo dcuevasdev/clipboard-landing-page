@@ -94,10 +94,13 @@ body {
   margin-bottom: 0;
 }
 
-.content_box .devices-img {
+.devices {
+  margin-bottom: 100px;
+}
+.devices figure {
   width: 90%;
   margin: 70px auto 0;
 }
-.content_box .devices-img img {
+.devices figure img {
   width: 100%;
 }
