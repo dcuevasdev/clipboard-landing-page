@@ -1,0 +1,15 @@
+.content_box {
+  width: 590px;
+}
+.content_box--buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content_box--buttons a {
+  width: 200px;
+}
+.content_box--buttons a:first-child {
+  margin-bottom: 0;
+  margin-right: 15px;
+}

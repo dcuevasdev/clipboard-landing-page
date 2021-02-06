@@ -1,1 +1,15 @@
-
+.content_box {
+  width: 590px;
+  &--buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    a {
+      width: 200px;
+    }
+    a:first-child {
+      margin-bottom: 0;
+      margin-right: 15px;
+    }
+  }
+}
