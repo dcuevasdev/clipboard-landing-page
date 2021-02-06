@@ -120,3 +120,64 @@ body {
     }
   }
 }
+
+footer {
+  background-color: $background;
+}
+.footer {
+  &_social {
+    &-img {
+      img {
+        width: 60px;
+        margin-top: 50px;
+      }
+    }
+    &-nav {
+      margin-bottom: 50px;
+      list-style: none;
+      li {
+        padding: 20px 0;
+        a {
+          color: $titles;
+          font-size: 18px;
+          text-decoration: none;
+        }
+        a:hover {
+          color: $cyan;
+        }
+      }
+    }
+    &-networks {
+      margin-bottom: 50px;
+      a {
+        display: inline-block;
+        margin-right: 40px;
+        svg {
+          fill: #4c545c;
+        }
+        svg:hover {
+          fill: $cyan;
+        }
+      }
+      a:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &_information {
+    p {
+      font-size: 1.1rem;
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: $titles;
+        transition: all 360ms;
+      }
+      a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+        color: $cyan;
+      }
+    }
+  }
+}
