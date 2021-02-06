@@ -181,3 +181,9 @@ body {
   text-decoration: underline;
   color: #26baa4;
 }
+
+@media (min-width: 376px) {
+  body {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+}

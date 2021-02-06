@@ -183,3 +183,9 @@ body {
     }
   }
 }
+
+@media (min-width: 376px) {
+  body {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+}
