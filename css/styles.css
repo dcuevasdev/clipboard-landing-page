@@ -126,7 +126,8 @@ body {
   width: 100%;
 }
 
-footer {
+.finish {
+  margin-bottom: 0;
   background-color: #f5f6f8;
 }
 
@@ -166,6 +167,7 @@ footer {
   margin-right: 0;
 }
 .footer_information p {
+  padding-bottom: 15px;
   font-size: 1.1rem;
 }
 .footer_information p a {

@@ -121,7 +121,8 @@ body {
   }
 }
 
-footer {
+.finish {
+  margin-bottom: 0;
   background-color: $background;
 }
 .footer {
@@ -166,6 +167,7 @@ footer {
   }
   &_information {
     p {
+      padding-bottom: 15px;
       font-size: 1.1rem;
       a {
         font-weight: bold;
