@@ -27,6 +27,7 @@
 
 .companies {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 .companies figure {
