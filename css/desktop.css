@@ -30,6 +30,11 @@
   padding-left: 0;
 }
 
+.devices figure img {
+  width: 900px;
+  margin-left: -200px;
+}
+
 .work,
 .companies {
   width: 900px;
