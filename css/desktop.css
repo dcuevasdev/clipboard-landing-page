@@ -1,3 +1,10 @@
+.content_box h1 {
+  font-size: 3.5rem;
+}
+.content_box h2 {
+  font-size: 3rem;
+}
+
 .box_properties {
   display: flex;
   justify-content: space-between;
