@@ -1,1 +1,24 @@
-
+.box_properties {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 750px;
+  height: 500px;
+  margin-top: 50px;
+  figure {
+    position: relative;
+    img {
+      width: 800px;
+      position: absolute;
+      left: -500px;
+      top: -250px;
+    }
+  }
+  &-description {
+    margin-top: 60px;
+    text-align: left;
+    p {
+      padding-left: 0;
+    }
+  }
+}
