@@ -31,13 +31,20 @@ body {
       a:first-child {
         margin-bottom: 20px;
       }
+
       .cyan {
         background-color: $cyan;
         box-shadow: 0 -3px 1px #219f8a inset;
       }
+      .cyan:hover {
+        box-shadow: 0 5px 10px $cyan;
+      }
       .blue {
         background-color: $blue;
         box-shadow: 0 -3px 1px #4f62da inset;
+      }
+      .blue:hover {
+        box-shadow: 0 5px 10px $blue;
       }
     }
   }

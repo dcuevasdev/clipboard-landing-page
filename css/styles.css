@@ -46,9 +46,15 @@ body {
   background-color: #26baa4;
   box-shadow: 0 -3px 1px #219f8a inset;
 }
+.content_box--buttons .cyan:hover {
+  box-shadow: 0 5px 10px #26baa4;
+}
 .content_box--buttons .blue {
   background-color: #6174ff;
   box-shadow: 0 -3px 1px #4f62da inset;
+}
+.content_box--buttons .blue:hover {
+  box-shadow: 0 5px 10px #6174ff;
 }
 .content_box figure {
   margin: 120px 0 50px;
