@@ -13,3 +13,23 @@
   margin-bottom: 0;
   margin-right: 15px;
 }
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_flows {
+  width: 295px;
+}
+.work_flows:first-child {
+  margin-top: -8px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.companies figure {
+  width: 170px;
+  padding: 10px;
+}

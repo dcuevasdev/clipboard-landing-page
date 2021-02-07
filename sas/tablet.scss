@@ -13,3 +13,22 @@
     }
   }
 }
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  &_flows {
+    width: 295px;
+  }
+  &_flows:first-child {
+    margin-top: -8px;
+  }
+}
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  figure {
+    width: 170px;
+    padding: 10px;
+  }
+}
