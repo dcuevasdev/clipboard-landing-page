@@ -32,3 +32,36 @@
     padding: 10px;
   }
 }
+
+.footer {
+  &_social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+    figure {
+      margin: 0;
+      img {
+        margin: 0;
+      }
+    }
+    &-nav {
+      width: 360px;
+      margin: 0 15px 0 30px;
+      text-align: left;
+      li {
+        display: inline-block;
+        margin-right: 45px;
+      }
+      li:nth-child(3) {
+        margin: 0;
+      }
+    }
+    &-networks {
+      margin: 0;
+      a {
+        margin-right: 8px;
+      }
+    }
+  }
+}
